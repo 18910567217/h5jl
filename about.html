@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>引导响应式简历网站-关于我</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  
+  <script src="js/jq.snow.js"></script>
+<!--下面是调用方法和参数说明-->
+<script>
+$(function(){
+	$.fn.snow({ 
+		minSize: 15,		//雪花的最小尺寸
+		maxSize: 50, 	//雪花的最大尺寸
+		newOn: 100,		//雪花出现的频率 这个数值越小雪花越多
+		flakeColor: '#fff',
+	});
+});
+</script>
+  
+</head>
+
+<body>
+<audio src="music/zzj.mp3" autoplay="autoplay" loop="loop"></audio>
+<!--top-nav-->
+<div class="top-nav wow">
+  <div class="container">
+    <div class="navbar-header logo">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        导航
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="menu">
+        <ul class="nav navbar">
+          <li><a href="index.html" >主页</a></li>
+          <li><a href="about.html" class="active">关于我</a></li>
+          <li><a href="experience.html">个人经历</a></li>
+          <li><a href="education.html">教育背景</a></li>
+          <li><a href="skills.html">专业技能</a></li>
+          <li><a href="portfolio.html">部分作品</a></li>
+          <li><a href="contact.html">联系我</a></li>
+        </ul>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//top-nav-->
+<!--about-->
+<div id="about" class="about">
+  <div class="container">
+    <h3 class="title">About Me</h3>
+    <div>
+      <p style="text-indent: 2em;line-height:3em;">为人踏实，性格安静，遇事镇定，不喜欢计较，易相处。对于工作认真、条理性强，能承受压力，比较务实，一步一脚印且有较强的团队意识，对待工作绝对的认真细心负责。有想法，有主见，适应工作也快。</p>
+      <p style="text-indent: 2em;line-height:3em;">我的工作特点。第一是团队协作意识强，善于与人交流和沟通;第二是动手能力和学习能力突出;第三是做事稳健，态度认真，有一定的组织协调能力;第四是考虑问题全面、仔细，做事有自己明确的想法和计划。我想在走上工作岗位之后，我可以以最快的速度适应工作环境，不断挖掘自己的能力，完善自己，为企业创造效益。
+        责任感强，有进取心，诚实可靠，有很强的团队合作意识和一定的学习能力。</p>
+   </div>
+  </div>
+</div>
+<!--//about-->
+
+<!--footer-->
+<div class="footer">
+  <div class="container">
+    <p>@个人简历,翻版必究</p>
+  </div>
+</div>
+<!--//footer-->
+</body>
+</html>
